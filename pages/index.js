@@ -53,7 +53,7 @@ const label = { inputProps: { "aria-label": "Switch demo" } };
 
 
 //Home
-export default function home() {
+export default function Home() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [value, setvalue] = React.useState(["Muliple"]);
   const [count, setcount] = React.useState(["Question : 1"]);
